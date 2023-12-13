@@ -1,0 +1,274 @@
+2023-12-13 10:40:27.548471 [INFO] [Context.cc:179] <<--- --- --- ---
+2023-12-13 10:40:27.548531 [INFO] [Context.cc:180]   --- --- --- ---
+2023-12-13 10:40:27.548537 [INFO] [Context.cc:181]   --- --- --- --->>
+2023-12-13 10:40:27.548542 [INFO] [Context.cc:182] aria2 1.37.0
+2023-12-13 10:40:27.548553 [INFO] [Context.cc:183] gcc 11.4.0
+  built by  x86_64-pc-linux-gnu
+  on        Dec 13 2023 10:08:08
+2023-12-13 10:40:27.548560 [INFO] [Context.cc:184] Linux 5.15.133.1-microsoft-standard-WSL2 #1 SMP Thu Oct 5 21:02:42 UTC 2023 x86_64
+2023-12-13 10:40:27.548565 [INFO] [Context.cc:185] OpenSSL/3.0.0b
+2023-12-13 10:40:27.548572 [INFO] [Context.cc:186] Logging started.
+2023-12-13 10:40:27.548578 [DEBUG] [Context.cc:215] Not setting rlimit NO_FILE: 1024 >= 1024
+2023-12-13 10:40:27.548582 [INFO] [SocketCore.cc:1660] Checking configured addresses
+2023-12-13 10:40:27.548673 [INFO] [SocketCore.cc:1711] Not considered: 127.0.0.1
+2023-12-13 10:40:27.548715 [INFO] [SocketCore.cc:1708] Found configured address: 172.22.31.21
+2023-12-13 10:40:27.548736 [INFO] [SocketCore.cc:1711] Not considered: ::1
+2023-12-13 10:40:27.548760 [INFO] [SocketCore.cc:1711] Not considered: fe80::215:5dff:fe05:abf2%eth0
+2023-12-13 10:40:27.548767 [INFO] [SocketCore.cc:1715] IPv4 configured=1, IPv6 configured=0
+2023-12-13 10:40:27.548826 [NOTICE] [Context.cc:310] Downloading 1 item(s)
+2023-12-13 10:40:27.549809 [INFO] [LibsslTLSContext.cc:284] System trusted CA certificates were successfully added.
+2023-12-13 10:40:27.549868 [DEBUG] [RequestGroupMan.cc:591] 1 RequestGroup(s) added.
+2023-12-13 10:40:27.549882 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:0, hup:0, err:0
+2023-12-13 10:40:27.549894 [DEBUG] [FeedbackURISelector.cc:162] Selected from normCands
+2023-12-13 10:40:27.549900 [DEBUG] [FeedbackURISelector.cc:84] FeedbackURISelector selected https://d90.gdl.netease.com/publish/green/yjwj_2023-09-06-11-00.zip
+2023-12-13 10:40:27.549918 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:0, hup:0, err:0
+2023-12-13 10:40:27.578632 [INFO] [AbstractCommand.cc:816] CUID#7 - Name resolution complete: d90.gdl.netease.com -> 120.220.134.215, 120.220.134.214
+2023-12-13 10:40:27.578694 [INFO] [HttpInitiateConnectionCommand.cc:123] CUID#7 - Connecting to 120.220.134.215:443
+2023-12-13 10:40:27.578831 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:0, hup:0, err:0
+2023-12-13 10:40:27.601531 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:1, hup:0, err:0
+2023-12-13 10:40:27.601646 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:1, hup:0, err:0
+2023-12-13 10:40:27.601658 [DEBUG] [SocketCore.cc:927] Creating TLS session
+2023-12-13 10:40:27.601696 [DEBUG] [SocketCore.cc:947] TLS Handshaking
+2023-12-13 10:40:27.624817 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:40:27.649051 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:40:27.649229 [DEBUG] [SocketCore.cc:994] Securely connected to d90.gdl.netease.com (120.220.134.215:443) with TLSv1.2
+2023-12-13 10:40:27.649260 [INFO] [HttpConnection.cc:128] CUID#7 - Requesting:
+GET /publish/green/yjwj_2023-09-06-11-00.zip HTTP/1.1
+User-Agent: aria2/1.37.0
+Accept: */*
+Host: d90.gdl.netease.com
+Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
+
+
+2023-12-13 10:40:27.674122 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:40:27.674988 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:40:27.675177 [INFO] [HttpConnection.cc:163] CUID#7 - Response received:
+HTTP/1.1 200 OK
+Server: Byte-nginx
+Content-Type: application/zip
+Content-Length: 37401879099
+Connection: keep-alive
+Accept-Ranges: bytes
+Age: 155403
+Etag: "373B5C936DA067F9E3D2C2E51356446F-400"
+Last-Modified: Wed, 06 Sep 2023 08:32:59 GMT
+X-Bdcdn-Cache-Status: TCP_HIT
+X-Oss-Hash-Crc64ecma: 9660730764885698093
+X-Oss-Object-Type: Multipart
+X-Oss-Request-Id: 6576BA8EF927613531DCE88B
+X-Oss-Server-Time: 101
+X-Oss-Storage-Class: Standard
+X-Request-Id: 0940dc9c900728422072de88c734391f
+X-Request-Ip: 111.37.47.237
+X-Response-Cache: edge_hit
+X-Response-Cinfo: 111.37.47.237
+X-Tt-Trace-Tag: id=5
+Date: Wed, 13 Dec 2023 02:40:25 GMT
+via: cache07.sdwfcm07
+Access-Control-Allow-Origin: *
+access-control-expose-headers: *
+x-cache-ip: 120.220.134.215
+
+
+2023-12-13 10:40:27.675225 [DEBUG] [RequestGroup.cc:1045] Finding PreDownloadHandler for path /dev/null/yjwj_2023-09-06-11-00.zip.
+2023-12-13 10:40:27.675239 [DEBUG] [RequestGroup.cc:1060] No PreDownloadHandler found.
+2023-12-13 10:40:27.675293 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:40:27.709382 [DEBUG] [DefaultPieceStorage.cc:637] Instantiating DirectDiskAdaptor
+2023-12-13 10:40:27.709483 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:40:27.709501 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:40:27.709508 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:40:27.709520 [DEBUG] [File.cc:234] Making directory /dev
+2023-12-13 10:40:27.709526 [DEBUG] [File.cc:236] /dev exists and is a directory.
+2023-12-13 10:40:27.709530 [DEBUG] [File.cc:234] Making directory /dev/null
+2023-12-13 10:40:27.709537 [DEBUG] [File.cc:240] Failed to create /dev/null
+2023-12-13 10:40:27.709678 [ERROR] [AbstractCommand.cc:401] CUID#7 - Download aborted. URI=https://d90.gdl.netease.com/publish/green/yjwj_2023-09-06-11-00.zip
+Exception: [AbstractCommand.cc:403] errorCode=18 URI=https://d90.gdl.netease.com/publish/green/yjwj_2023-09-06-11-00.zip
+  -> [RequestGroup.cc:761] errorCode=18 Download aborted.
+  -> [util.cc:1949] errNum=17 errorCode=18 Failed to make the directory /dev/null, cause: File exists
+2023-12-13 10:40:27.709759 [DEBUG] [RequestGroup.cc:983] GID#4206a0b6d6499ef4 - Request queue check
+2023-12-13 10:40:27.709863 [NOTICE] [RequestGroupMan.cc:424] Download GID#4206a0b6d6499ef4 not complete: /dev/null/yjwj_2023-09-06-11-00.zip
+2023-12-13 10:40:27.709925 [DEBUG] [RequestGroup.cc:1173] GID#4206a0b6d6499ef4 - Creating DownloadResult.
+2023-12-13 10:40:27.709949 [DEBUG] [DefaultPieceStorage.cc:745] Removed 0 have entries.
+2023-12-13 10:40:27.710049 [DEBUG] [RequestGroupMan.cc:481] 1 RequestGroup(s) deleted.
+2023-12-13 10:40:38.723603 [INFO] [Context.cc:179] <<--- --- --- ---
+2023-12-13 10:40:38.723689 [INFO] [Context.cc:180]   --- --- --- ---
+2023-12-13 10:40:38.723700 [INFO] [Context.cc:181]   --- --- --- --->>
+2023-12-13 10:40:38.723705 [INFO] [Context.cc:182] aria2 1.37.0
+2023-12-13 10:40:38.723717 [INFO] [Context.cc:183] gcc 11.4.0
+  built by  x86_64-pc-linux-gnu
+  on        Dec 13 2023 10:08:08
+2023-12-13 10:40:38.723742 [INFO] [Context.cc:184] Linux 5.15.133.1-microsoft-standard-WSL2 #1 SMP Thu Oct 5 21:02:42 UTC 2023 x86_64
+2023-12-13 10:40:38.723756 [INFO] [Context.cc:185] OpenSSL/3.0.0b
+2023-12-13 10:40:38.723765 [INFO] [Context.cc:186] Logging started.
+2023-12-13 10:40:38.723774 [DEBUG] [Context.cc:215] Not setting rlimit NO_FILE: 1024 >= 1024
+2023-12-13 10:40:38.723780 [INFO] [SocketCore.cc:1660] Checking configured addresses
+2023-12-13 10:40:38.723890 [INFO] [SocketCore.cc:1711] Not considered: 127.0.0.1
+2023-12-13 10:40:38.723937 [INFO] [SocketCore.cc:1708] Found configured address: 172.22.31.21
+2023-12-13 10:40:38.723956 [INFO] [SocketCore.cc:1711] Not considered: ::1
+2023-12-13 10:40:38.723988 [INFO] [SocketCore.cc:1711] Not considered: fe80::215:5dff:fe05:abf2%eth0
+2023-12-13 10:40:38.724000 [INFO] [SocketCore.cc:1715] IPv4 configured=1, IPv6 configured=0
+2023-12-13 10:40:38.724076 [NOTICE] [Context.cc:310] Downloading 1 item(s)
+2023-12-13 10:40:38.725367 [INFO] [LibsslTLSContext.cc:284] System trusted CA certificates were successfully added.
+2023-12-13 10:40:38.725477 [DEBUG] [RequestGroupMan.cc:591] 1 RequestGroup(s) added.
+2023-12-13 10:40:38.725498 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:0, hup:0, err:0
+2023-12-13 10:40:38.725534 [DEBUG] [FeedbackURISelector.cc:162] Selected from normCands
+2023-12-13 10:40:38.725544 [DEBUG] [FeedbackURISelector.cc:84] FeedbackURISelector selected https://d90.gdl.netease.com/publish/green/yjwj_2023-09-06-11-00.zip
+2023-12-13 10:40:38.725571 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:0, hup:0, err:0
+2023-12-13 10:40:38.741032 [INFO] [AbstractCommand.cc:816] CUID#7 - Name resolution complete: d90.gdl.netease.com -> 120.220.134.215, 120.220.134.214
+2023-12-13 10:40:38.741104 [INFO] [HttpInitiateConnectionCommand.cc:123] CUID#7 - Connecting to 120.220.134.215:443
+2023-12-13 10:40:38.741268 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:0, hup:0, err:0
+2023-12-13 10:40:38.758261 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:1, hup:0, err:0
+2023-12-13 10:40:38.758349 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:1, hup:0, err:0
+2023-12-13 10:40:38.758362 [DEBUG] [SocketCore.cc:927] Creating TLS session
+2023-12-13 10:40:38.758401 [DEBUG] [SocketCore.cc:947] TLS Handshaking
+2023-12-13 10:40:38.776207 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:40:38.794866 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:40:38.795062 [DEBUG] [SocketCore.cc:994] Securely connected to d90.gdl.netease.com (120.220.134.215:443) with TLSv1.2
+2023-12-13 10:40:38.795128 [INFO] [HttpConnection.cc:128] CUID#7 - Requesting:
+GET /publish/green/yjwj_2023-09-06-11-00.zip HTTP/1.1
+User-Agent: aria2/1.37.0
+Accept: */*
+Host: d90.gdl.netease.com
+Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
+
+
+2023-12-13 10:40:38.814479 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:40:38.814618 [INFO] [HttpConnection.cc:163] CUID#7 - Response received:
+HTTP/1.1 200 OK
+Server: Byte-nginx
+Content-Type: application/zip
+Content-Length: 37401879099
+Connection: keep-alive
+Accept-Ranges: bytes
+Age: 155414
+Etag: "373B5C936DA067F9E3D2C2E51356446F-400"
+Last-Modified: Wed, 06 Sep 2023 08:32:59 GMT
+X-Bdcdn-Cache-Status: TCP_HIT
+X-Oss-Hash-Crc64ecma: 9660730764885698093
+X-Oss-Object-Type: Multipart
+X-Oss-Request-Id: 6576BA8EF927613531DCE88B
+X-Oss-Server-Time: 101
+X-Oss-Storage-Class: Standard
+X-Request-Id: bfb10311c50fb0cb102bc186fce43de2
+X-Request-Ip: 111.37.47.237
+X-Response-Cache: edge_hit
+X-Response-Cinfo: 111.37.47.237
+X-Tt-Trace-Tag: id=5
+Date: Wed, 13 Dec 2023 02:40:36 GMT
+via: cache05.sdwfcm07
+Access-Control-Allow-Origin: *
+access-control-expose-headers: *
+x-cache-ip: 120.220.134.215
+
+
+2023-12-13 10:40:38.814640 [DEBUG] [RequestGroup.cc:1045] Finding PreDownloadHandler for path /dev/null/yjwj_2023-09-06-11-00.zip.
+2023-12-13 10:40:38.814645 [DEBUG] [RequestGroup.cc:1060] No PreDownloadHandler found.
+2023-12-13 10:40:38.814668 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:40:38.848399 [DEBUG] [DefaultPieceStorage.cc:637] Instantiating DirectDiskAdaptor
+2023-12-13 10:40:38.848505 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:40:38.848522 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:40:38.848529 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:40:38.848565 [DEBUG] [File.cc:234] Making directory /dev
+2023-12-13 10:40:38.848577 [DEBUG] [File.cc:236] /dev exists and is a directory.
+2023-12-13 10:40:38.848582 [DEBUG] [File.cc:234] Making directory /dev/null
+2023-12-13 10:40:38.848590 [DEBUG] [File.cc:240] Failed to create /dev/null
+2023-12-13 10:40:38.848734 [ERROR] [AbstractCommand.cc:401] CUID#7 - Download aborted. URI=https://d90.gdl.netease.com/publish/green/yjwj_2023-09-06-11-00.zip
+Exception: [AbstractCommand.cc:403] errorCode=18 URI=https://d90.gdl.netease.com/publish/green/yjwj_2023-09-06-11-00.zip
+  -> [RequestGroup.cc:761] errorCode=18 Download aborted.
+  -> [util.cc:1949] errNum=17 errorCode=18 Failed to make the directory /dev/null, cause: File exists
+2023-12-13 10:40:38.848837 [DEBUG] [RequestGroup.cc:983] GID#31139cd39eea29ca - Request queue check
+2023-12-13 10:40:38.848974 [NOTICE] [RequestGroupMan.cc:424] Download GID#31139cd39eea29ca not complete: /dev/null/yjwj_2023-09-06-11-00.zip
+2023-12-13 10:40:38.849052 [DEBUG] [RequestGroup.cc:1173] GID#31139cd39eea29ca - Creating DownloadResult.
+2023-12-13 10:40:38.849084 [DEBUG] [DefaultPieceStorage.cc:745] Removed 0 have entries.
+2023-12-13 10:40:38.849172 [DEBUG] [RequestGroupMan.cc:481] 1 RequestGroup(s) deleted.
+2023-12-13 10:43:18.689084 [INFO] [Context.cc:179] <<--- --- --- ---
+2023-12-13 10:43:18.689204 [INFO] [Context.cc:180]   --- --- --- ---
+2023-12-13 10:43:18.689220 [INFO] [Context.cc:181]   --- --- --- --->>
+2023-12-13 10:43:18.689229 [INFO] [Context.cc:182] aria2 1.37.0
+2023-12-13 10:43:18.689244 [INFO] [Context.cc:183] gcc 11.4.0
+  built by  x86_64-pc-linux-gnu
+  on        Dec 13 2023 10:08:08
+2023-12-13 10:43:18.689256 [INFO] [Context.cc:184] Linux 5.15.133.1-microsoft-standard-WSL2 #1 SMP Thu Oct 5 21:02:42 UTC 2023 x86_64
+2023-12-13 10:43:18.689263 [INFO] [Context.cc:185] OpenSSL/3.0.0b
+2023-12-13 10:43:18.689272 [INFO] [Context.cc:186] Logging started.
+2023-12-13 10:43:18.689281 [DEBUG] [Context.cc:215] Not setting rlimit NO_FILE: 1024 >= 1024
+2023-12-13 10:43:18.689289 [INFO] [SocketCore.cc:1660] Checking configured addresses
+2023-12-13 10:43:18.689389 [INFO] [SocketCore.cc:1711] Not considered: 127.0.0.1
+2023-12-13 10:43:18.689438 [INFO] [SocketCore.cc:1708] Found configured address: 172.22.31.21
+2023-12-13 10:43:18.689453 [INFO] [SocketCore.cc:1711] Not considered: ::1
+2023-12-13 10:43:18.689487 [INFO] [SocketCore.cc:1711] Not considered: fe80::215:5dff:fe05:abf2%eth0
+2023-12-13 10:43:18.689495 [INFO] [SocketCore.cc:1715] IPv4 configured=1, IPv6 configured=0
+2023-12-13 10:43:18.689553 [NOTICE] [Context.cc:310] Downloading 1 item(s)
+2023-12-13 10:43:18.690757 [INFO] [LibsslTLSContext.cc:284] System trusted CA certificates were successfully added.
+2023-12-13 10:43:18.690830 [DEBUG] [RequestGroupMan.cc:591] 1 RequestGroup(s) added.
+2023-12-13 10:43:18.690850 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:0, hup:0, err:0
+2023-12-13 10:43:18.690869 [DEBUG] [FeedbackURISelector.cc:162] Selected from normCands
+2023-12-13 10:43:18.690877 [DEBUG] [FeedbackURISelector.cc:84] FeedbackURISelector selected https://d90.gdl.netease.com/publish/green/yjwj_2023-09-06-11-00.zip
+2023-12-13 10:43:18.690903 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:0, hup:0, err:0
+2023-12-13 10:43:18.718908 [INFO] [AbstractCommand.cc:816] CUID#7 - Name resolution complete: d90.gdl.netease.com -> 120.220.134.214, 120.220.134.215
+2023-12-13 10:43:18.718969 [INFO] [HttpInitiateConnectionCommand.cc:123] CUID#7 - Connecting to 120.220.134.214:443
+2023-12-13 10:43:18.719100 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:0, hup:0, err:0
+2023-12-13 10:43:18.734280 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:1, hup:0, err:0
+2023-12-13 10:43:18.743704 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:0, write:1, hup:0, err:0
+2023-12-13 10:43:18.743739 [DEBUG] [SocketCore.cc:927] Creating TLS session
+2023-12-13 10:43:18.743797 [DEBUG] [SocketCore.cc:947] TLS Handshaking
+2023-12-13 10:43:18.759721 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:43:18.776534 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:43:18.776775 [DEBUG] [SocketCore.cc:994] Securely connected to d90.gdl.netease.com (120.220.134.214:443) with TLSv1.2
+2023-12-13 10:43:18.776870 [INFO] [HttpConnection.cc:128] CUID#7 - Requesting:
+GET /publish/green/yjwj_2023-09-06-11-00.zip HTTP/1.1
+User-Agent: aria2/1.37.0
+Accept: */*
+Host: d90.gdl.netease.com
+Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
+
+
+2023-12-13 10:43:18.804135 [DEBUG] [AbstractCommand.cc:181] CUID#7 - socket: read:1, write:0, hup:0, err:0
+2023-12-13 10:43:18.804329 [INFO] [HttpConnection.cc:163] CUID#7 - Response received:
+HTTP/1.1 200 OK
+Server: Byte-nginx
+Content-Type: application/zip
+Content-Length: 37401879099
+Connection: keep-alive
+Accept-Ranges: bytes
+Age: 155574
+Etag: "373B5C936DA067F9E3D2C2E51356446F-400"
+Last-Modified: Wed, 06 Sep 2023 08:32:59 GMT
+X-Bdcdn-Cache-Status: TCP_HIT
+X-Oss-Hash-Crc64ecma: 9660730764885698093
+X-Oss-Object-Type: Multipart
+X-Oss-Request-Id: 6576BA8EF927613531DCE88B
+X-Oss-Server-Time: 101
+X-Oss-Storage-Class: Standard
+X-Request-Id: 926e399a32b04685b53ae4d1602f25c8
+X-Request-Ip: 111.37.47.237
+X-Response-Cache: edge_hit
+X-Response-Cinfo: 111.37.47.237
+X-Tt-Trace-Tag: id=5
+Date: Wed, 13 Dec 2023 02:43:16 GMT
+via: cache03.sdwfcm07
+Access-Control-Allow-Origin: *
+access-control-expose-headers: *
+x-cache-ip: 120.220.134.214
+
+
+2023-12-13 10:43:18.804466 [DEBUG] [RequestGroup.cc:1046] Finding PreDownloadHandler for path /dev/null/yjwj_2023-09-06-11-00.zip.
+2023-12-13 10:43:18.804516 [DEBUG] [RequestGroup.cc:1061] No PreDownloadHandler found.
+2023-12-13 10:43:18.804555 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:43:18.850499 [DEBUG] [DefaultPieceStorage.cc:637] Instantiating DirectDiskAdaptor
+2023-12-13 10:43:18.850634 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:43:18.850660 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:43:18.850672 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file /dev/null/yjwj_2023-09-06-11-00.zip.aria2 does not exist.
+2023-12-13 10:43:18.850697 [DEBUG] [File.cc:234] Making directory /dev
+2023-12-13 10:43:18.850714 [DEBUG] [File.cc:236] /dev exists and is a directory.
+2023-12-13 10:43:18.850722 [DEBUG] [File.cc:234] Making directory /dev/null
+2023-12-13 10:43:18.850734 [DEBUG] [File.cc:240] Failed to create /dev/null
+2023-12-13 10:43:18.850967 [ERROR] [AbstractCommand.cc:401] CUID#7 - Download aborted. URI=https://d90.gdl.netease.com/publish/green/yjwj_2023-09-06-11-00.zip
+Exception: [AbstractCommand.cc:403] errorCode=18 URI=https://d90.gdl.netease.com/publish/green/yjwj_2023-09-06-11-00.zip
+  -> [RequestGroup.cc:762] errorCode=18 Download aborted.
+  -> [util.cc:1949] errNum=17 errorCode=18 Failed to make the directory /dev/null, cause: File exists
+2023-12-13 10:43:18.851066 [DEBUG] [RequestGroup.cc:984] GID#90d089902a4355e2 - Request queue check
+2023-12-13 10:43:18.851227 [NOTICE] [RequestGroupMan.cc:424] Download GID#90d089902a4355e2 not complete: /dev/null/yjwj_2023-09-06-11-00.zip
+2023-12-13 10:43:18.851305 [DEBUG] [RequestGroup.cc:1174] GID#90d089902a4355e2 - Creating DownloadResult.
+2023-12-13 10:43:18.851342 [DEBUG] [DefaultPieceStorage.cc:745] Removed 0 have entries.
+2023-12-13 10:43:18.851441 [DEBUG] [RequestGroupMan.cc:481] 1 RequestGroup(s) deleted.
